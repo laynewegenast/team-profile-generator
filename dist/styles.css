@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+#navbar {
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
