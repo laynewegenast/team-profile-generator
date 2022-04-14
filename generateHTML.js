@@ -15,13 +15,13 @@ const generateHTML=(employees) =>{
        
     
         `
-        if(employees[i].getRole == "Manager"){
+        if(employees[i].getRole === "Manager"){
           HTML+=  `<p class="office">Office Number: ${employees[i].officenum}</p>  </div>
           </div>`
-        }else if(employees[i].getRole == "Engineer") {
+        } else if(employees[i].getRole === "Engineer") {
             HTML+=  `<p class="office">Office Number: ${employees[i].github}</p>  </div>
           </div>`
-        } else if(employees[i].getRole == "Intern") {
+        } else if(employees[i].getRole === "Intern") {
             HTML+=  `<p class="office">Office Number: ${employees[i].schoolname}</p>  </div>
             </div>`
         }
