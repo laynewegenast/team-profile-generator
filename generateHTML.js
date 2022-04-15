@@ -19,10 +19,10 @@ const generateHTML=(employees) =>{
           HTML+=  `<p class="office">Office Number: ${employees[i].officenum}</p>  </div>
           </div>`
         } else if(employees[i].getRole === "Engineer") {
-            HTML+=  `<p class="office">Office Number: ${employees[i].github}</p>  </div>
+            HTML+=  `<p class="office">Github Username: ${employees[i].github}</p>  </div>
           </div>`
         } else if(employees[i].getRole === "Intern") {
-            HTML+=  `<p class="office">Office Number: ${employees[i].schoolname}</p>  </div>
+            HTML+=  `<p class="office">School name: ${employees[i].schoolname}</p>  </div>
             </div>`
         }
     }
